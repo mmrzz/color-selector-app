@@ -1,8 +1,13 @@
 import React from 'react'
 
 const Header = () => {
+
+    const headerStyle = {
+        fontFamily: 'Arial'
+    }
+
   return (
-    <header>
+    <header style = {headerStyle}>
         <h1>groceries list</h1>
     </header>
   )
