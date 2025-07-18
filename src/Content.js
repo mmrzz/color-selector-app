@@ -2,7 +2,7 @@ import React from 'react'
 
 function Content() {
     const handleNameChange = () => {
-    const names = ['me', 'you', 'her'];
+    const names = ['himself', 'you', 'her'];
     const int = Math.floor(Math.random()*3);
 
     return names[int];
@@ -10,7 +10,7 @@ function Content() {
 
   return (
     <main>
-        <p>love {handleNameChange()} </p>
+        <p>The autor of this page wish {handleNameChange()}  dead.</p>
     </main>
   )
 }

@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <header style = {headerStyle}>
-        <h1>groceries list</h1>
+        <h1>Groceries List</h1>
     </header>
   )
 }
