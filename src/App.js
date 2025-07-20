@@ -1,13 +1,19 @@
-import Header from './Header.js'
-import Content from './Content.js'
-import Footer from './footer.js'
+import DisplayColor from "./DisplayColor";
+import InputColor from "./InputColor";
+import { useState } from "react";
 function App() {
+
+  const [color, setColor] = useState("")
 
   return (
     <div className="App">
-      <Header />
-      <Content />
-      <Footer />
+      <DisplayColor
+        color={color}
+      />
+      <InputColor 
+        color={color}
+        setColor={setColor}
+      />
     </div>
   );
 }
